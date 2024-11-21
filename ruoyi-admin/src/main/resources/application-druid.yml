@@ -17,7 +17,7 @@ spring:
 
                 url: jdbc:dm://192.168.50.61:5236?schema=test_wms_train
                 username: TEST
-                password: 123456789
+                password: 123456
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
@@ -41,6 +41,6 @@ spring:
         password:
 ruoyi:
     # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-    profile: D:/ruoyi/uploadPath
+    profile: /home/ruoyi/uploadPath
 scheduling:
     enabled: false
