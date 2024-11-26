@@ -11,6 +11,9 @@ import org.springframework.data.redis.core.BoundSetOperations;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
+
+//import com.rds.client.springboot.RdsTemplete;
+
 import org.springframework.stereotype.Component;
 
 /**
@@ -24,6 +27,7 @@ public class RedisCache
 {
     @Autowired
     public RedisTemplate redisTemplate;
+//    public RdsTemplete redisTemplate;
 
     /**
      * 缓存基本的对象，Integer、String、实体类等
